@@ -1,0 +1,15 @@
+.menu{
+    display:flex;
+    justify-content: space-between;
+
+}
+.sticky-div {
+
+    position: sticky;
+    max-height: 100vh;
+
+    top: 0;
+    position: -webkit-sticky;
+
+    overflow: auto;
+}
