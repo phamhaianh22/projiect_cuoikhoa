@@ -1,6 +1,10 @@
 .menu{
     display:flex;
-    justify-content: space-between;
+    justify-content:center;
+    border-width: 100%;
+    
+    background:rgb(0, 100, 0);
+
 
 }
 .sticky-div {
@@ -12,4 +16,61 @@
     position: -webkit-sticky;
 
     overflow: auto;
+}
+.background{
+    background: url(https://vcdn1-dulich.vnecdn.net/2022/05/13/daoco-haiduong-3462-1652412828.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=6R-9kopyAKUYnApXKwM9-Q);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.font{
+    text-align: center;
+    padding-top:200px;
+    padding-bottom: 200px;
+    font-family: Comic Sans MS;
+    font-size: 65px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.text{
+   
+    font-size: 20px;
+    font-family: Arial;
+    text-align:left;
+    max-width: 710px;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+ a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    
+    
+    
+
+}
+.img{
+    display:flex;
+    justify-content: space-between;
+}
+.a{
+    
+    border-style: groove;
+    border-radius: 5px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+ a:visited{
+
 }
